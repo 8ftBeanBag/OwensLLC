@@ -1,0 +1,82 @@
+.navBar {
+  top: 0px;
+  background: grey;
+}
+
+.navBar a {
+  color: white;
+}
+
+.banner.title {
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("images/forest.jpg");
+  background-position: center center;
+  height: 600px;
+  padding: auto;
+  font-family: 'PT Serif', serif;
+}
+
+img.logoImg {
+  width: 100vw;
+  position: fixed;
+  left: 0px;
+  top: 50%;
+}
+
+h1.pageTitle {
+  padding-top: 40px;
+  font-size: 64px;
+}
+
+h4 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+p img.icon {
+    width: 32px;
+    height: 32px;
+    margin: 4px;
+}
+
+p.iconLine {
+  text-align: center;
+}
+
+footer {
+  background: grey;
+  margin-top: 50px;
+}
+
+footer p.attribution{
+  color: white;
+  font-size: 8px;
+  margin: auto;
+}
+
+div.alignCenter {
+  vertical-align: middle;
+  margin: auto;
+}
+
+img.venmo {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
+
+img.qrCode {
+  width: 256px;
+  height: 256px;
+  margin: 0px 50px;
+}
+
+p.paypal {
+  text-align: center;
+}
