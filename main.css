@@ -4,29 +4,85 @@
   background-color: #279af1 ;
 }
 
+a.nav-link {
+  color: white  ;
+}
+
 /** Custom css **/
-html, body {
+/* html, body {
   overflow-x:hidden 
-} 
-.navBar {
+}  */
+.navBar, footer {
   background: #131112;
   color: white;
   font-family: 'PT Serif', serif;
 }
 
-.navBar a {
-  color: white;
-}
-
 .banner {
   background-image: url("images/forest.png");
   background-position: center center;
-  height: 35vw;
+  height: fit-content;
   font-family: 'PT Serif', serif;
   color: black;
+  overflow-x:hidden 
 }
 
 .hero-image {
   width: max(32vw, 50%);
   height: max(32vw, 50%);
+}
+
+.tag-line {
+  font-size: 4em;
+}
+
+.slide-left {
+  animation: slide-left 0.75s;
+}
+
+.slide-right {
+  animation: slide-right 0.75s;
+}
+
+img.chainsaw-img {
+  width: max(20vw, 200px);
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+h2 {
+  color: #60656f;
+  font-family: 'PT Serif', serif;
+}
+/** Animations **/
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/** Media Querries **/
+@media only screen and (max-width: 992px) {
+  .tag-line {
+    padding: 4px;
+    font-size: 30px;
+  }
 }
