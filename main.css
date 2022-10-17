@@ -27,6 +27,11 @@ a.nav-link {
   overflow-x:hidden 
 }
 
+.banner-accent {
+  font-family: accentFont;
+  font-size: 2em;
+}
+
 .hero-image {
   width: max(32vw, 50%);
   height: max(32vw, 50%);
@@ -85,4 +90,14 @@ h2 {
     padding: 4px;
     font-size: 30px;
   }
+  .banner-accent {
+    font-size: 30px;
+  }
+}
+
+/** Fonts **/
+@font-face {
+  font-family: accentFont;
+  src: url(fonts/AmaticSC-Bold.ttf);
+  font-weight: bold;
 }
