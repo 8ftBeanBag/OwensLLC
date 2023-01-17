@@ -60,6 +60,12 @@ h2 {
   color: #60656f;
   font-family: 'PT Serif', serif;
 }
+img.squareLogo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
 /** Animations **/
 @keyframes slide-left {
   from {
